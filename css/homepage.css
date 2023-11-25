@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'VenkateshwarLight';
+    src: url('res/fonts/venkateshwar light.ttf') format('ttf'); /* Update the path and format accordingly */
+    /* You can include multiple src declarations for different formats (e.g., woff2, ttf) for better browser compatibility */
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body{
+    font-family: 'VenkateshwarLight',sans-serif;
     margin: 0%;
     background-color: black;
 }
@@ -19,6 +28,28 @@ body{
     justify-content: space-between;
     height: 40px;
     position: relative;
+}
+.logo {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+.menu {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+.rightsidebar {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.spacing{
+    width: 4px;
 }
 
 
