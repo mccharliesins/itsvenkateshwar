@@ -1,0 +1,19 @@
+
+.header {
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 1440px;
+    padding: 1.5rem 1rem;
+}
+
+@media screen and (min-width: 1024px){
+.header {
+    padding: 1.5rem 4rem;
+}
+}
+
+@media screen and (min-width: 768px){
+.header {
+    padding: 1.5rem 2rem;
+}
+}
