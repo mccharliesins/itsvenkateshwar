@@ -6,6 +6,18 @@
     padding: 1.5rem 1rem;
 }
 
+.headercontents {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    height: 24px;
+    background-color: brown;
+    position: relative;
+}
+
+
 @media screen and (min-width: 1024px){
 .header {
     padding: 1.5rem 4rem;
