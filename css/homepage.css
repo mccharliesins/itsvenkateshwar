@@ -1,4 +1,6 @@
-
+body{
+    padding: 0%;
+}
 .header {
     box-sizing: border-box;
     margin: 0px auto;
